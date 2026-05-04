@@ -31,16 +31,16 @@ see which properties are worth investing in and exactly why others are not.
 ## 📸 Screenshots
 
 ### 🏠 Page 1 — Executive Overview
-![Overview](Screenshots/page1_overview.png)
+![Overview](ScreenShot/page1_overview.png)
 
 ### ✅ Page 2 — Where to Invest
-![Where to Invest](Screenshots/page2_where_to_invest.png)
+![Where to Invest](ScreenShot/page2_where_to_invest.png)
 
 ### ❌ Page 3 — Why Bad Investments Are Bad
-![Why Bad](Screenshots/page3_why_bad.png)
+![Why Bad](ScreenShot/page3_why_bad.png)
 
 ### 💰 Page 4 — Price vs Value
-![Price vs Value](Screenshots/page4_price_vs_value.png)
+![Price vs Value](ScreenShot/page4_price_vs_value.png)
 
 ---
 
@@ -70,23 +70,21 @@ Each property is scored **0–10** using this custom DAX algorithm:
 **Good Investment** = Score ≥ 6 AND price ≤ city median  
 **Poor Investment** = Everything else
 
----
-
 ## 📁 Repository Structure
 
+```
 RealEstate_Dashboard/
-├── 📁 PowerBI/
-│   ├── 📊 Real Estate Investment Advisor - DashBoard.pbix
-│   ├── 📄 Real Estate Investment Advisor.pdf
-│   └── 📋 india_housing_prices.csv
-├── 📁 Screenshots/
+├── PowerBI/
+│   ├── Real Estate Investment Advisor - DashBoard.pbix
+│   ├── Real Estate Investment Advisor.pdf
+│   └── india_housing_prices.csv
+├── ScreenShot/
 │   ├── page1_overview.png
 │   ├── page2_where_to_invest.png
 │   ├── page3_why_bad.png
 │   └── page4_price_vs_value.png
-└── 📄 README.md
-
----
+└── README.md
+```
 
 ## 🛠 Tech Stack
 
