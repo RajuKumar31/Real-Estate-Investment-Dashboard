@@ -1,0 +1,13 @@
+# Windows
+Thumbs.db
+desktop.ini
+
+# Mac
+.DS_Store
+
+# Power BI temp files
+*.pbix.lock
+~$*.pbix
+
+# VS Code
+.vscode/
